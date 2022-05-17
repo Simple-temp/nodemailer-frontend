@@ -20,7 +20,7 @@ function App() {
         return toast.error("Please fill up those fields")
       }
       setLoading(true)
-      const { data } = await axios.post("http://localhost:5000/sendmail", {
+      const { data } = await axios.post("https://nodemailer-234.herokuapp.com/sendmail", {
         text,
         email,
         item,
