@@ -1,1 +1,1 @@
-## nodemailer app
+## NodeMailer app (Send a mail)
