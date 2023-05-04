@@ -20,7 +20,7 @@ function App() {
         return toast.error("Please fill up those fields")
       }
       setLoading(true)
-      const { data } = await axios.post("https://nodemailer-234.herokuapp.com/sendmail", {
+      const { data } = await axios.post("https://mailsender-ox40.onrender.com/sendmail", {
         text,
         email,
         item,
